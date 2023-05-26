@@ -1,0 +1,33 @@
+
+<div>
+    <mat-card class="login">
+    <mat-card-header>
+        <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="e">
+            <mat-form-field appearance="outline" class="control-m">
+                <mat-label>Email Address</mat-label>
+                <input type="text" matInput placeholder="email" formControlName="email">
+                <mat-hint>Your email address</mat-hint>
+            </mat-form-field>
+        </div>
+        
+        <div>
+            <mat-form-field appearance="outline" class="control-m">
+                <mat-label>Password</mat-label>
+                <input type="password" matInput placeholder="Password" formControlName="password">
+                <mat-hint>Your password</mat-hint>
+            </mat-form-field>
+        </div>
+        
+        <div>
+            <button mat-raised-button color="primary" class="btnL" routerLink = "report">Login</button>
+        </div>
+        
+        <div>
+            <button mat-raised-button color="primary" class="btnR" routerLink = "register">Register</button>
+        </div>
+    </mat-card-content>
+    </mat-card>
+</div>

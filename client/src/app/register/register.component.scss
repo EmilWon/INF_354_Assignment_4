@@ -1,0 +1,29 @@
+$contentLeft: 15%;
+$contentWidth: 300px;
+$btnWidth: 150px;
+
+
+.register {
+    left: 35%;
+    margin-top: 8%;
+    max-width: 400px;
+    height: 360px;
+}
+
+.control-m{
+    margin-top: 3%;
+    left: $contentLeft;
+    width: $contentWidth;
+}
+
+.btnC{
+    margin-top: 5%;
+    left: 8%;
+    width: $btnWidth;
+}
+
+.btnR{
+    left: 18%;
+    width: $btnWidth;
+    margin-left: 3%;
+}

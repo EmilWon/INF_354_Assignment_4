@@ -1,0 +1,28 @@
+$contentLeft: 15%;
+$contentWidth: 300px;
+
+
+.login {
+    left: 35%;
+    margin-top: 8%;
+    max-width: 400px;
+    height: 350px;
+}
+
+.control-m{
+    margin-top: 3%;
+    left: $contentLeft;
+    width: $contentWidth;
+}
+
+.btnL{
+    margin-top: 5%;
+    left: $contentLeft;
+    width: $contentWidth;
+}
+
+.btnR{
+    left: $contentLeft;
+    width: $contentWidth;
+    margin-top: 3%;
+}
